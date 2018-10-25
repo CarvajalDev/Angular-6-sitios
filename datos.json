@@ -1,0 +1,112 @@
+{
+  "sitios": [{
+      "id": 1,
+      "nombre": "Asadero de Pollos",
+      "categoria": "restaurante",
+      "calificacion": 1,
+      "descripcion": "Pollo asado y almuerzos...",
+      "ads": true
+    },
+    {
+      "id": 2,
+      "nombre": "Las Vegas",
+      "categoria": "restaurante",
+      "calificacion": 2,
+      "descripcion": "Platos a la carta y pollo asado...",
+      "ads": true
+    },
+    {
+      "id": 3,
+      "nombre": "Helados Popsy",
+      "categoria": "restaurante",
+      "calificacion": 3,
+      "descripcion": "Helados gourmet y paletas...",
+      "ads": true
+    },
+    {
+      "id": 4,
+      "nombre": "Metropolitano Hotel",
+      "categoria": "hotel",
+      "calificacion": 4,
+      "descripcion": "Hotel acogedor está situado...",
+      "ads": true
+    },
+    {
+        "id": 5,
+        "nombre": "La Granja Burger",
+        "categoria": "restaurante",
+        "calificacion": 5,
+        "descripcion": "Hambuerguesas y perros calientes...",
+        "ads": false
+    },
+    {
+        "id": 6,
+        "nombre": "Manhattan Club",
+        "categoria": "bar",
+        "calificacion": 5,
+        "descripcion": "Discoteca chafa en Neiva...",
+        "ads": false
+    },
+    {
+        "id": 7,
+        "nombre": "Almacenes Exito",
+        "categoria": "supermercado",
+        "calificacion": 4,
+        "descripcion": "Tiendas Exito es un supermercado...",
+        "ads": false
+    },
+    {
+        "id": 8,
+        "nombre": "Los Lagos",
+        "categoria": "parque",
+        "calificacion": 4,
+        "descripcion": "Club recreacional en las afueras...",
+        "ads": false
+    },
+    {
+        "id": 9,
+        "nombre": "Bancolombia",
+        "categoria": "banco",
+        "calificacion": 3,
+        "descripcion": "El banco de los colombianos...",
+        "ads": false
+    },
+    {
+        "id": 10,
+        "nombre": "Cinemark",
+        "categoria": "entretenimiento",
+        "calificacion": 3,
+        "descripcion": "Cine para toda la familia...",
+        "ads": false
+    }
+  ],
+  "categorias": [{
+      "nombre": "Restaurante",
+      "id": 1
+    },
+    {
+      "nombre": "Tienda",
+      "id": 2
+    },
+    {
+      "nombre": "Hotel",
+      "id": 3
+    },
+    {
+      "nombre": "Bar",
+      "id": 4
+    },
+    {
+      "nombre": "Supermercado",
+      "id": 5
+    },
+    {
+      "nombre": "Banco",
+      "id": 6
+    },
+    {
+      "nombre": "Entretenimiento",
+      "id": 7
+    }
+  ]
+}

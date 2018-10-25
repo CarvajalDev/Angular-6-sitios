@@ -18,7 +18,8 @@ import { HomeComponent } from './home/home.component';
     PostsComponent,
     UsersComponent,
     DetailsComponent,
-    HomeComponent
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
