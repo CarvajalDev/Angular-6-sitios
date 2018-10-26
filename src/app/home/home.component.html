@@ -16,7 +16,13 @@
           <div class="lugar-text">
             <h3> {{lugares.nombre}} </h3>
             <div class="lugar-location"> {{lugares.categoria}} </div>
-            <div class="lugar-position">*****</div>
+            <div class="lugar-position">
+                    <ngb-rating [rate]="lugares.calificacion">
+                        <ng-template let-fill="fill">
+                          <span class="star" [class.filled]="fill === 100">&#9733;</span>
+                        </ng-template>
+                    </ngb-rating>
+            </div>
             <p>{{ lugares.descripcion }}</p>
           </div>
         </div>
