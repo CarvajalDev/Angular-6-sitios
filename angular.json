@@ -34,7 +34,7 @@
               "node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [ ]
           },
           "configurations": {
             "production": {

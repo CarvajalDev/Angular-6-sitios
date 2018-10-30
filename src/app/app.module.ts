@@ -10,9 +10,12 @@ import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
+import { SitioComponent } from './sitio/sitio.component';
+import { SitiosCiudadesComponent } from './sitios-ciudades/sitios-ciudades.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { SitioComponent } from './sitio/sitio.component';
+
+
 
 
 @NgModule({
@@ -24,7 +27,7 @@ import { SitioComponent } from './sitio/sitio.component';
     DetailsComponent,
     HomeComponent,
     SitioComponent,
-
+    SitiosCiudadesComponent
   ],
   imports: [
     BrowserModule,
