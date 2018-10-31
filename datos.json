@@ -80,7 +80,7 @@
       "nombre": "La Granja Burger",
       "categoria": "restaurante",
       "calificacion": 5,
-      "descripcion": "Hambuerguesas y perros calientes...",
+      "descripcion": "Hambuerger and hot dogs...",
       "ads": false,
       "direccion": {
         "calle": "Calle 25 #2-01",
@@ -118,7 +118,7 @@
       "nombre": "Almacenes Exito",
       "categoria": "supermercado",
       "calificacion": 4,
-      "descripcion": "Tiendas Exito es un supermercado...",
+      "descripcion": "Exito es un supermercado...",
       "ads": false,
       "direccion": {
         "calle": "Calle 25 #2-01",
@@ -137,7 +137,7 @@
       "nombre": "Los Lagos",
       "categoria": "parque",
       "calificacion": 4,
-      "descripcion": "Club recreacional en las afueras...",
+      "descripcion": "Club, fiestas, eventos...",
       "ads": false,
       "direccion": {
         "calle": "Calle 25 #2-01",
@@ -188,6 +188,44 @@
           "lng": "2.938246"
         }
       }
+    },
+    {
+      "id": 11,
+      "nombre": "Juan Valdez Café",
+      "categoria": "café",
+      "calificacion": 1,
+      "descripcion": "Café 100% Colombiano",
+      "ads": false,
+      "direccion": {
+        "calle": "Calle 25 #2-01",
+        "barrio": "Las Delicias",
+        "estado": "Huila",
+        "ciudad": "Neiva",
+        "zipcode": "4100005",
+        "geo": {
+          "lat": "-75.295902",
+          "lng": "2.938246"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "nombre": "Beer 24",
+      "categoria": "bar",
+      "calificacion": 1,
+      "descripcion": "Comidas Rapidas y feas...",
+      "ads": false,
+      "direccion": {
+        "calle": "Calle 25 #2-01",
+        "barrio": "Las Delicias",
+        "estado": "Huila",
+        "ciudad": "Neiva",
+        "zipcode": "4100005",
+        "geo": {
+          "lat": "-75.295902",
+          "lng": "2.938246"
+        }
+      }
     }
   ],
   "categorias": [{
@@ -217,6 +255,14 @@
     {
       "nombre": "Entretenimiento",
       "id": 7
+    },
+    {
+      "nombre": "Parque",
+      "id": 8
+    },
+    {
+      "nombre": "Café",
+      "id": 9
     }
   ]
 }

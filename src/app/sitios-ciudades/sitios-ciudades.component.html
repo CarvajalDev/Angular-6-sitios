@@ -33,7 +33,38 @@
             </li>
           </ul>
 
+            <div class="row espacioAbajo"></div>
 
+          <div class="row">
+<div class="col-md-3 espacioAbajo" *ngFor="let lugares of datos$">
+<div routerLink="/sitio/{{lugares.id}}" class="lugar-item item-border" *ngIf="!lugares.ads">
+                <div id="caja" class="lugar-image">
+                  <img src="assets/img/author-2.jpg" class="img-responsive lugar-radiusImg" alt="author">
+                </div>
+                <div class="lugar-text">
+                  <h3> {{lugares.nombre}} </h3>
+                  <div class="lugar-location"> {{lugares.categoria}} </div>
+                  <div class="lugar-position">
+                    <ngb-rating [rate]="lugares.calificacion">
+                      <ng-template let-fill="fill">
+                        <span class="star" [class.filled]="fill === 100">&#9733;</span>
+                      </ng-template>
+                    </ngb-rating>
+                  </div>
+                  <p>{{ lugares.descripcion }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="section-title">
+                <a class="verMas" href="#">Ver más lugares</a>
+              </div>
+            </div>
+          </div>
+          
 
 
 
