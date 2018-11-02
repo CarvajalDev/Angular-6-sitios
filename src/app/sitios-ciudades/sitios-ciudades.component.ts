@@ -12,10 +12,14 @@ export class SitiosCiudadesComponent implements OnInit {
   constructor(private data: DataService) { }
 
   datos$: object;
+  ciudades$: object;
 
   ngOnInit() {
     this.data.getSitios().subscribe(
       data => this.datos$ = data
+    );
+    this.data.getCiudades().subscribe(
+      data => this.ciudades$ = data
     );
   }
 

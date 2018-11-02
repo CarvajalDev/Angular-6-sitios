@@ -527,9 +527,9 @@ figure.effect-bubba:hover p {
 .lugar-item:hover {
 
   border: 2px solid #21ce99 !important;
-  -webkit-box-shadow: 0px 0px 15px 1px rgba(128, 128, 128, 1);
-  -moz-box-shadow: 0px 0px 15px 1px rgba(128, 128, 128, 1);
-  box-shadow: 0px 0px 15px 1px rgba(128, 128, 128, 1);
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(191, 191, 191, 1);
+  -moz-box-shadow: 0px 5px 20px 0px rgba(191, 191, 191, 1);
+  box-shadow: 0px 5px 20px 0px rgba(191, 191, 191, 1);
 
 }
 
@@ -595,7 +595,7 @@ figure.effect-bubba:hover p {
 
 /* BuscApp + Ciudad */
 .espacioAbajo {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .item-border {
@@ -612,7 +612,6 @@ figure.effect-bubba:hover p {
 }
 
 .verMas:hover {
-  text-decoration-line: none;
   color: #21ce99
 }
 

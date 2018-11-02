@@ -27,6 +27,10 @@ export class DataService {
   getSitio(sitioId) {
     return this.http.get('http://localhost:3000/sitios/' + sitioId);
   }
+
+  getCiudades() {
+    return this.http.get('http://localhost:3000/ciudades');
+  }
 }
 
 

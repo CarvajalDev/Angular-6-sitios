@@ -115,7 +115,7 @@
     },
     {
       "id": 7,
-      "nombre": "Almacenes Exito",
+      "nombre": "Almacen Exito",
       "categoria": "supermercado",
       "calificacion": 4,
       "descripcion": "Exito es un supermercado...",
@@ -263,6 +263,51 @@
     {
       "nombre": "Café",
       "id": 9
+    }
+  ],
+  "ciudades": [
+    {
+      "id": 1,
+      "pais": "Colombia",
+      "estado": "Huila",
+      "ciudad": "Neiva",
+      "visit": true
+      
+    },
+    {
+      "id": 2,
+      "pais": "Colombia",
+      "estado": "Huila",
+      "ciudad": "Rivera",
+      "visit": false
+    },
+    {
+      "id": 3,
+      "pais": "Colombia",
+      "estado": "Huila",
+      "ciudad": "Garzón",
+      "visit": false
+    },
+    {
+      "id": 4,
+      "pais": "Colombia",
+      "estado": "Huila",
+      "ciudad": "Timaná",
+      "visit": false
+    },
+    {
+      "id": 5,
+      "pais": "Colombia",
+      "estado": "Huila",
+      "ciudad": "Pitalito",
+      "visit": false
+    },
+    {
+      "id": 6,
+      "pais": "Colombia",
+      "estado": "Huila",
+      "ciudad": "San Agustín",
+      "visit": false
     }
   ]
 }
