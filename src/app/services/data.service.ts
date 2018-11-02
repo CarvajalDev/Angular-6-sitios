@@ -31,6 +31,10 @@ export class DataService {
   getCiudades() {
     return this.http.get('http://localhost:3000/ciudades');
   }
+
+  getCategories() {
+    return this.http.get('http://localhost:3000/categorias');
+  }
 }
 
 

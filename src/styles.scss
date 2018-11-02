@@ -461,7 +461,7 @@ figure.effect-bubba:hover p {
 }
 
 .light-bg {
-  background-color: #f8f8f8;
+  background-color: #f2f2f2;
 }
 
 .overlay-dark:before,
@@ -594,9 +594,6 @@ figure.effect-bubba:hover p {
 
 
 /* BuscApp + Ciudad */
-.espacioAbajo {
-  padding-bottom: 20px;
-}
 
 .item-border {
   border: 1px solid #d6d6d6 !important;
@@ -716,16 +713,19 @@ footer p a span {
   padding: 5px 10px;
 }
 
-/* Components */
+/* Botones */
 
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: #fff;
-  background-color: #21ce99;
-  border-color: #f6bf01;
+  color: #21ce99;
+  background-color: #fff;
+  border-color: #21ce99;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(217, 217, 217, 1);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(217, 217, 217, 1);
+  box-shadow: 0px 5px 10px 2px rgba(217, 217, 217, 1);
 }
 
 .btn:hover,
@@ -733,16 +733,23 @@ footer p a span {
 .btn:active,
 .btn.active,
 .open .dropdown-toggle.btn {
-  color: #fff;
-  background-color: #21ce99;
-  border-color: #f6bf01;
+  color: #21ce99;
+  background-color: #fff;
+  border-color: #21ce99;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(217, 217, 217, 1);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(217, 217, 217, 1);
+  box-shadow: 0px 5px 10px 2px rgba(217, 217, 217, 1);
 }
 
 .btn {
-  display: inline-block;
-  padding: 8px 20px;
+  display: inline-block; 
+  /*padding: 8px 20px;*/
+  color: #a6a6a6;
+  background-color: #fff;
+  height: 140px;
+  width: 210px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.42857143;
   text-align: center;
@@ -756,8 +763,8 @@ footer p a span {
   -ms-user-select: none;
   user-select: none;
   background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
 }
 
 .btn-xl {
@@ -815,4 +822,12 @@ h2 {
 
 .filled.bad {
   color: #ff1e1e;
+}
+
+.espacioAbajo {
+  padding-bottom: 20px;
+}
+
+.space {
+  padding-left: 75px;
 }

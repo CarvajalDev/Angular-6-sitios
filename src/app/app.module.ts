@@ -14,6 +14,7 @@ import { SitioComponent } from './sitio/sitio.component';
 import { SitiosCiudadesComponent } from './sitios-ciudades/sitios-ciudades.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CategoriesComponent } from './categories/categories.component';
 
 
 
@@ -27,7 +28,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     DetailsComponent,
     HomeComponent,
     SitioComponent,
-    SitiosCiudadesComponent
+    SitiosCiudadesComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,
