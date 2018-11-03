@@ -229,40 +229,63 @@
     }
   ],
   "categorias": [{
-      "nombre": "Restaurante",
-      "id": 1
+      "id": 1,
+      "nombre": "Restaurantes",
+      "login": true
     },
     {
-      "nombre": "Tienda",
-      "id": 2
+      "id": 2,
+      "nombre": "Tiendas",
+      "login": true
     },
     {
-      "nombre": "Hotel",
-      "id": 3
+      "id": 3,
+      "nombre": "Hoteles",
+      "login": true
     },
     {
-      "nombre": "Bar",
-      "id": 4
+      "id": 4,
+      "nombre": "Vida Nocturna",
+      "login": true
     },
     {
-      "nombre": "Supermercado",
-      "id": 5
-    },
-    {
-      "nombre": "Banco",
-      "id": 6
-    },
-    {
+      "id": 5,
       "nombre": "Entretenimiento",
-      "id": 7
+      "login": true
+      
     },
     {
-      "nombre": "Parque",
-      "id": 8
-    },
-    {
+      "id": 6,
       "nombre": "Café",
-      "id": 9
+      "login": true
+    },
+    {
+      "id": 7,
+      "nombre": "Salud",
+      "login": true
+    },
+    {
+      "id": 8,
+      "nombre": "Supermercado",
+      "login": false
+    },
+    {
+      "id": 9,
+      "nombre": "Banco",
+      "login": false
+      
+    },
+    {
+      "id": 10,
+      "nombre": "Parque",
+      "login":false
+      
+    },
+    {
+      "id": 11,
+      "nombre": "Más Categorias",
+      "login": true
+      
     }
   ],
   "ciudades": [

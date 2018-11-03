@@ -526,7 +526,7 @@ figure.effect-bubba:hover p {
 
 .lugar-item:hover {
 
-  border: 2px solid #21ce99 !important;
+  border: 1px solid #21ce99 !important;
   -webkit-box-shadow: 0px 5px 20px 0px rgba(191, 191, 191, 1);
   -moz-box-shadow: 0px 5px 20px 0px rgba(191, 191, 191, 1);
   box-shadow: 0px 5px 20px 0px rgba(191, 191, 191, 1);
@@ -747,7 +747,7 @@ footer p a span {
   color: #a6a6a6;
   background-color: #fff;
   height: 140px;
-  width: 210px;
+  width: 215px;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 400;
@@ -765,6 +765,10 @@ footer p a span {
   background-image: none;
   border: 1px solid #e6e6e6;
   border-radius: 10px;
+}
+
+.btn i{
+  padding-top: 10px;
 }
 
 .btn-xl {
@@ -830,4 +834,26 @@ h2 {
 
 .space {
   padding-left: 75px;
+  padding-right: 70px;
+}
+
+/* Iconos Material Design */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.material-icons.md-60 {
+  font-size: 60px;
 }
