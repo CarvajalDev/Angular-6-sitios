@@ -231,37 +231,49 @@
   "categorias": [{
       "id": 1,
       "nombre": "Restaurantes",
+      "icono": "restaurant",
       "login": true
     },
     {
       "id": 2,
       "nombre": "Tiendas",
+      "icono": "shopping_cart",
       "login": true
     },
     {
       "id": 3,
       "nombre": "Hoteles",
+      "icono": "hotel",
       "login": true
     },
     {
       "id": 4,
       "nombre": "Vida Nocturna",
+      "icono": "local_bar",
       "login": true
     },
     {
       "id": 5,
       "nombre": "Entretenimiento",
+      "icono": "local_activity",
       "login": true
-      
     },
     {
       "id": 6,
       "nombre": "Café",
+      "icono": "local_cafe",
       "login": true
     },
     {
       "id": 7,
       "nombre": "Salud",
+      "icono": "local_hospital",
+      "login": true
+    },
+    {
+      "id": 11,
+      "nombre": "Más Categorías",
+      "icono": "more_horiz",
       "login": true
     },
     {
@@ -273,19 +285,11 @@
       "id": 9,
       "nombre": "Banco",
       "login": false
-      
     },
     {
       "id": 10,
       "nombre": "Parque",
       "login":false
-      
-    },
-    {
-      "id": 11,
-      "nombre": "Más Categorias",
-      "login": true
-      
     }
   ],
   "ciudades": [
@@ -295,7 +299,6 @@
       "estado": "Huila",
       "ciudad": "Neiva",
       "visit": true
-      
     },
     {
       "id": 2,
