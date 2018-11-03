@@ -271,23 +271,23 @@
       "login": true
     },
     {
-      "id": 11,
+      "id": 8,
       "nombre": "Más Categorías",
       "icono": "more_horiz",
       "login": true
     },
     {
-      "id": 8,
+      "id": 9,
       "nombre": "Supermercado",
       "login": false
     },
     {
-      "id": 9,
+      "id": 10,
       "nombre": "Banco",
       "login": false
     },
     {
-      "id": 10,
+      "id": 11,
       "nombre": "Parque",
       "login":false
     }
