@@ -170,7 +170,7 @@ section {
 /* Header */
 
 header {
-  /*background-image: url(../images/demo/bg-main.jpg);*/
+  background-image: url(assets/img/header.png);
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -180,16 +180,17 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: #fff;
+
 }
 
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 180px;
   padding-bottom: 50px;
 }
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 180px;
     padding-bottom: 200px;
   }
 }
@@ -461,7 +462,7 @@ figure.effect-bubba:hover p {
 }
 
 .light-bg {
-  background-color: #f2f2f2;
+  background-color: #F3F3F6;
 }
 
 .overlay-dark:before,
@@ -565,7 +566,7 @@ figure.effect-bubba:hover p {
   border-radius: 13px 13px 0px 0px !important;
 }
 
-/* Menu ciudades 
+/* Menu ciudades
 .centrarNav {
   padding-left: 260px;
 }
@@ -742,7 +743,7 @@ footer p a span {
 }
 
 .btn {
-  display: inline-block; 
+  display: inline-block;
   /*padding: 8px 20px;*/
   color: #a6a6a6;
   background-color: #fff;
@@ -803,7 +804,7 @@ footer p a span {
 }
 
 h2 {
-  font-size: 21px !important;
+  font-size: 26px !important;
   color: #21ce99 !important;
   text-align: center !important;
   font-weight: bold !important;

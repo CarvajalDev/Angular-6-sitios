@@ -232,64 +232,75 @@
       "id": 1,
       "nombre": "Restaurantes",
       "icono": "restaurant",
-      "login": true
+      "login": true,
+      "popular": true
     },
     {
       "id": 2,
       "nombre": "Tiendas",
       "icono": "shopping_cart",
-      "login": true
+      "login": true,
+      "popular":true
     },
     {
       "id": 3,
       "nombre": "Hoteles",
       "icono": "hotel",
-      "login": true
+      "login": true,
+      "popular":true
     },
     {
       "id": 4,
       "nombre": "Vida Nocturna",
       "icono": "local_bar",
-      "login": true
+      "login": true,
+      "popular":true
     },
     {
       "id": 5,
       "nombre": "Entretenimiento",
       "icono": "local_activity",
-      "login": true
+      "login": true,
+      "popular":false
     },
     {
       "id": 6,
       "nombre": "Café",
       "icono": "local_cafe",
-      "login": true
+      "login": true,
+      "popular":false
     },
     {
       "id": 7,
       "nombre": "Salud",
       "icono": "local_hospital",
-      "login": true
+      "login": true,
+      "popular": false
     },
     {
       "id": 8,
       "nombre": "Más Categorías",
       "icono": "more_horiz",
-      "login": true
+      "login": true,
+      "popular":false
     },
     {
       "id": 9,
       "nombre": "Supermercado",
-      "login": false
+      "login": false,
+      "popular":false
     },
     {
       "id": 10,
       "nombre": "Banco",
-      "login": false
+      "login": false,
+      "popular":false
     },
     {
       "id": 11,
       "nombre": "Parque",
-      "login":false
+      "login":false,
+      "popular":false
     }
   ],
   "ciudades": [

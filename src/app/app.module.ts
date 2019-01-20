@@ -15,6 +15,9 @@ import { SitiosCiudadesComponent } from './sitios-ciudades/sitios-ciudades.compo
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CategoriesComponent } from './categories/categories.component';
+import { DownloadAppComponent } from './download-app/download-app.component';
+import { FooterComponent } from './footer/footer.component';
+import { SearcherComponent } from './searcher/searcher.component';
 
 
 
@@ -29,7 +32,10 @@ import { CategoriesComponent } from './categories/categories.component';
     HomeComponent,
     SitioComponent,
     SitiosCiudadesComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    DownloadAppComponent,
+    FooterComponent,
+    SearcherComponent
   ],
   imports: [
     BrowserModule,

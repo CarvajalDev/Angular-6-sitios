@@ -1,7 +1,81 @@
-<h1> {{ sitio$.nombre }} </h1>
+<section class="bg-light">
+    <div class="container shadow p-3 mb-5 bg-white rounded mx-auto ancho">       
+        <div class="row">
+            <div class="col-md-10">
+                <h1> {{ sitio$.nombre }} </h1>
+            </div>
+            <div class="col-md-3">
+                <div class="tituloCategoria">Calificación</div><div class="descripcion"> {{ sitio$.calificacion }} </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tituloCategoria">Categoría</div><div class="descripcion"> {{ sitio$.categoria }} </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tituloCategoria">descripción</div><div class="descripcion"> {{ sitio$.descripcion }} </div>
+            </div>
+        </div>
+    </div>
+    <div class="container shadow p-3 mb-5 bg-white rounded mx-auto ancho">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="shadow-none p-3 mb-1 bg-white rounded post">
+                    <h6>Usuario</h6>
+                    <p>Comentario</p>
+                </div>
+                <div class="shadow-none p-3 mb-2 bg-white rounded post">
+                    <h6>Usuario</h6>
+                    <p>Comentario</p>
+                </div>
+                <div class="shadow-none p-3 mb-2 bg-white rounded post">
+                    <h6>Usuario</h6>
+                    <p>Comentario</p>
+                </div>
+                <div class="shadow-none p-3 mb-2 bg-white rounded post">
+                    <h6>Usuario</h6>
+                    <p>Comentario</p>
+                </div>
+                <div class="shadow-none p-3 mb-2 bg-white rounded post">
+                    <h6>Usuario</h6>
+                    <p>Comentario</p>
+                </div>
+                <div class="shadow-none p-3 mb-2 bg-white rounded post">
+                    <h6>Usuario</h6>
+                    <p>Comentario</p>
+                </div>
+                <div class="shadow-none p-3 mb-2 bg-white rounded post">
+                    <h6>Usuario</h6>
+                    <p>Comentario</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<ul>
-    <li> {{ sitio$.categoria }} </li>
-    <li> {{ sitio$.calificacion }} </li>
-    <li> {{ sitio$.descripcion }} </li>
-</ul>
+
+</section>
+<!--
+<div class="media">
+  <img src="https://via.placeholder.com/110/92c952" alt="Logo" class="rounded">
+</div>
+-->
