@@ -9,7 +9,11 @@
     </div>
     <div class="row space">
       <div class="col-md-3 espacioAbajo" *ngFor="let categorias of categories$">
-        <button type="button" class="btn" *ngIf="categorias.login"><i class="material-icons md-60">{{categorias.icono}}</i><br/>{{categorias.nombre}}</button>
+        <button type="button" routerLink="/categories-result/{{categorias.id}}" class="btn" *ngIf="categorias.login">
+          <i class="material-icons md-60">{{categorias.icono}}</i>
+          <br />
+          {{categorias.nombre}}
+        </button>
       </div>
     </div>
   </div>

@@ -18,6 +18,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { DownloadAppComponent } from './download-app/download-app.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearcherComponent } from './searcher/searcher.component';
+import { CategoriesResultComponent } from './categories-result/categories-result.component';
 
 
 
@@ -35,7 +36,8 @@ import { SearcherComponent } from './searcher/searcher.component';
     CategoriesComponent,
     DownloadAppComponent,
     FooterComponent,
-    SearcherComponent
+    SearcherComponent,
+    CategoriesResultComponent
   ],
   imports: [
     BrowserModule,
