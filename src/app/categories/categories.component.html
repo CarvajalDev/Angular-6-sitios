@@ -8,13 +8,16 @@
       </div>
     </div>
     <div class="row space">
-      <div class="col-md-3 espacioAbajo" *ngFor="let categorias of categories$">
+      <div class="col-md-3 espacioAbajo" *ngFor=" let categorias of categories$ ">
         <button type="button" routerLink="/categories-result/{{categorias.id}}" class="btn" *ngIf="categorias.login">
-          <i class="material-icons md-60">{{categorias.icono}}</i>
-          <br />
-          {{categorias.nombre}}
-        </button>
+        <i class="material-icons md-60">{{categorias.icono}}</i><br />
+          {{categorias.nombre}}</button>
+
       </div>
     </div>
   </div>
 </section>
+<!--
+<button type="button" routerLink=" " class="btn btnMas"><i class="material-icons md-60">more_horiz</i><br />Más
+  Categorías</button>
+-->

@@ -19,6 +19,7 @@ import { DownloadAppComponent } from './download-app/download-app.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearcherComponent } from './searcher/searcher.component';
 import { CategoriesResultComponent } from './categories-result/categories-result.component';
+import { SitiosResultComponent } from './sitios-result/sitios-result.component';
 
 
 
@@ -37,7 +38,8 @@ import { CategoriesResultComponent } from './categories-result/categories-result
     DownloadAppComponent,
     FooterComponent,
     SearcherComponent,
-    CategoriesResultComponent
+    CategoriesResultComponent,
+    SitiosResultComponent
   ],
   imports: [
     BrowserModule,

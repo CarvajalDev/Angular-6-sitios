@@ -37,7 +37,7 @@ export class DataService {
   }
 
   getCategoriesResult(resultId) {
-    return this.http.get('http://localhost:3000/sitios/' + resultId);
+    return this.http.get('http://localhost:3000/categorias/' + resultId);
   }
 
 }

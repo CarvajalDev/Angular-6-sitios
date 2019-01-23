@@ -6,6 +6,7 @@ import { UsersComponent } from './users/users.component';
 import { HomeComponent } from './home/home.component';
 import { SitioComponent } from './sitio/sitio.component';
 import { CategoriesResultComponent } from './categories-result/categories-result.component';
+import { SitiosResultComponent } from './sitios-result/sitios-result.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'details/:id', component: DetailsComponent },
   { path: 'posts', component: PostsComponent },
   { path: 'categories-result/:id', component: CategoriesResultComponent },
+  { path: 'sitios-result', component: SitiosResultComponent },
 
 ];
 

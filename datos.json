@@ -2,7 +2,7 @@
   "sitios": [{
       "id": 1,
       "nombre": "Asadero de Pollos",
-      "categoria": "restaurante",
+      "categoria": "Restaurante",
       "calificacion": 1,
       "descripcion": "Pollo asado y almuerzos...",
       "ads": true,
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "nombre": "Las Vegas",
-      "categoria": "restaurante",
+      "categoria": "Restaurante",
       "calificacion": 2,
       "descripcion": "Platos a la carta y pollo asado...",
       "ads": true,
@@ -40,7 +40,7 @@
     {
       "id": 3,
       "nombre": "Helados Popsy",
-      "categoria": "restaurante",
+      "categoria": "Restaurante",
       "calificacion": 3,
       "descripcion": "Helados gourmet y paletas...",
       "ads": true,
@@ -59,7 +59,7 @@
     {
       "id": 4,
       "nombre": "Metropolitano Hotel",
-      "categoria": "hotel",
+      "categoria": "Hotel",
       "calificacion": 4,
       "descripcion": "Hotel acogedor está situado...",
       "ads": true,
@@ -78,7 +78,7 @@
     {
       "id": 5,
       "nombre": "La Granja Burger",
-      "categoria": "restaurante",
+      "categoria": "Restaurante",
       "calificacion": 5,
       "descripcion": "Hambuerger and hot dogs...",
       "ads": false,
@@ -97,7 +97,7 @@
     {
       "id": 6,
       "nombre": "Manhattan Club",
-      "categoria": "bar",
+      "categoria": "Vida Nocturna",
       "calificacion": 5,
       "descripcion": "Discoteca chafa en Neiva...",
       "ads": false,
@@ -116,7 +116,7 @@
     {
       "id": 7,
       "nombre": "Almacen Exito",
-      "categoria": "supermercado",
+      "categoria": "Tienda",
       "calificacion": 4,
       "descripcion": "Exito es un supermercado...",
       "ads": false,
@@ -135,7 +135,7 @@
     {
       "id": 8,
       "nombre": "Los Lagos",
-      "categoria": "parque",
+      "categoria": "Parque",
       "calificacion": 4,
       "descripcion": "Club, fiestas, eventos...",
       "ads": false,
@@ -154,7 +154,7 @@
     {
       "id": 9,
       "nombre": "Bancolombia",
-      "categoria": "banco",
+      "categoria": "Banco",
       "calificacion": 3,
       "descripcion": "El banco de los colombianos...",
       "ads": false,
@@ -173,7 +173,7 @@
     {
       "id": 10,
       "nombre": "Cinemark",
-      "categoria": "entretenimiento",
+      "categoria": "Entretenimiento",
       "calificacion": 3,
       "descripcion": "Cine para toda la familia...",
       "ads": false,
@@ -192,7 +192,7 @@
     {
       "id": 11,
       "nombre": "Juan Valdez Café",
-      "categoria": "café",
+      "categoria": "Café",
       "calificacion": 1,
       "descripcion": "Café 100% Colombiano",
       "ads": false,
@@ -210,8 +210,8 @@
     },
     {
       "id": 12,
-      "nombre": "Beer 24",
-      "categoria": "bar",
+      "nombre": "Beer Station",
+      "categoria": "Vida Nocturna",
       "calificacion": 1,
       "descripcion": "Comidas Rapidas y feas...",
       "ads": false,
@@ -230,21 +230,21 @@
   ],
   "categorias": [{
       "id": 1,
-      "nombre": "Restaurantes",
+      "nombre": "Restaurante",
       "icono": "restaurant",
       "login": true,
       "popular": true
     },
     {
       "id": 2,
-      "nombre": "Tiendas",
+      "nombre": "Tienda",
       "icono": "shopping_cart",
       "login": true,
       "popular":true
     },
     {
       "id": 3,
-      "nombre": "Hoteles",
+      "nombre": "Hotel",
       "icono": "hotel",
       "login": true,
       "popular":true
@@ -281,7 +281,7 @@
       "id": 8,
       "nombre": "Más Categorías",
       "icono": "more_horiz",
-      "login": true,
+      "login": false,
       "popular":false
     },
     {

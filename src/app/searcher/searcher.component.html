@@ -5,8 +5,8 @@
         <img src="assets/img/Logo.png" />
         <br>
         <div class="categoTop" *ngFor="let populares of categoriaPopular$">
-          <a *ngIf="populares.popular" routerLink="#"><i class="material-icons">{{populares.icono}}</i>
-  {{populares.nombre}}</a>
+          <a *ngIf="populares.popular" routerLink="/categories-result/{{populares.id}}"><i class=" material-icons">{{populares.icono}}</i>
+          {{populares.nombre}}</a>
         </div>
       </div>
     </div>
