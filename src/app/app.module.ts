@@ -5,9 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
-import { PostsComponent } from './posts/posts.component';
-import { UsersComponent } from './users/users.component';
-import { DetailsComponent } from './details/details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { SitioComponent } from './sitio/sitio.component';
@@ -28,9 +25,6 @@ import { SitiosResultComponent } from './sitios-result/sitios-result.component';
   declarations: [
     AppComponent,
     MenuComponent,
-    PostsComponent,
-    UsersComponent,
-    DetailsComponent,
     HomeComponent,
     SitioComponent,
     SitiosCiudadesComponent,
